@@ -4,7 +4,11 @@ import MealsByName from '../views/MealsByName.vue'
 import MealsByLetter from '../views/MealsByLetter.vue'
 import MealsByIngredient from '../views/MealsByIngredient.vue'
 import DefaultLayout from '../components/common/DefaultLayout.vue'
-
+import GuestLayout from '../components/common/GuestLayout.vue'
+/** auth pages **/
+import Login from '../views/auth/Login.vue'
+import Register from '../views/auth/Register.vue'
+import ForgotPassword from '../views/auth/ForgotPassword.vue';
 
 const routes = [
   {
@@ -33,7 +37,31 @@ const routes = [
       }
     ]
   },
-  
+
+  {
+    path: '/auth',
+    component: GuestLayout,
+    children: [
+      {
+        path: '/login',
+        name: 'login',
+        component: Login
+        ,
+      },
+      {
+        path: '/register',
+        name: 'register',
+        component: Register
+        ,
+      },
+      {
+        path: '/ForgotPassword',
+        name: 'forgotPassword',
+        component: ForgotPassword
+      }
+    ]
+  }
+
 ]
 
 const router = createRouter({
