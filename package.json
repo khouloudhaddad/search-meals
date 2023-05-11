@@ -12,6 +12,7 @@
     "axios": "^1.4.0",
     "vue": "^3.2.47",
     "vue-router": "^4.2.0",
+    "vue-truncate-filter": "^1.1.7",
     "vuex": "^4.1.0"
   },
   "devDependencies": {
