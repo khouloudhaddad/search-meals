@@ -20,4 +20,5 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - Run `npx tailwindcss init -p` <br/>
 - Complete configuration && add styles <br/>
 - Run `npm i vue-router@4` <br/>
-- Run `npm i vuex@4 -S`
+- Run `npm i vuex@4 -S` <br/>
+- Run `npm install -D @tailwindcss/forms`
