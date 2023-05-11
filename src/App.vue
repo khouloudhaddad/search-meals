@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <h1 class="bg-blue-500">hello</h1>
+  <router-view />
 </template>
 
 <style scoped>
