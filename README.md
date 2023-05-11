@@ -15,3 +15,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - Type project name, choose Vue and Javascript <br/>
 - Open the project and Run `npm install && npm run dev` <br/>
 - Clean the project & <strong>HAPPY CODING!!</strong>
+- Navigate to [Install tailwind Css](https://tailwindcss.com/docs/guides/vite#vue) <br/>
+- Run `npm install -D tailwindcss postcss autoprefixer` <br/>
+- Run `npx tailwindcss init -p` <br/>
+- Complete configuration && add styles

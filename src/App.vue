@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <h1>hello</h1>
+  <h1 class="bg-blue-500">hello</h1>
 </template>
 
 <style scoped>
