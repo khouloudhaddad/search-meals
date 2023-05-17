@@ -3,6 +3,7 @@
 @tailwind utilities;
 .icons-share svg{
     width: 25px;
+    margin-right: 5px;
 }
 .icons-share svg:hover{
     color: #333;
