@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.icons-share svg{
+    width: 25px;
+}
+.icons-share svg:hover{
+    color: #333;
+    transition: all 0.2s ease-in-out;
+}

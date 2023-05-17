@@ -13,6 +13,7 @@
     "flowbite": "^1.6.5",
     "vue": "^3.2.47",
     "vue-router": "^4.2.0",
+    "vue-socials": "^2.0.3",
     "vue-truncate-filter": "^1.1.7",
     "vuex": "^4.1.0"
   },
