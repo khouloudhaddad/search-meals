@@ -13,8 +13,7 @@
     <p class="py-3" v-if="meal.strInstructions">{{ meal.strInstructions.slice(0, 75) + " ..." }}</p>
     <div class="flex items-center justify-between">
       <YoutubeButton :href="meal.strYoutube">Youtube</YoutubeButton>
-    </div>
-    <div class="icons-share bg-white p-5 rounded-lg border">
+      <div class="icons-share bg-white p-3">
       <div class="flex items-center justify-center">
         <s-email :share-options="shareOptions">
           <svg
@@ -54,6 +53,8 @@
         </s-blogger>
       </div>
     </div>
+    </div>
+    
   </div>
 </template>
 
